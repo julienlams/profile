@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #f7f9fc;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #383838;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1, h2, h3 {
+  color: #404040;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 18px;
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+a {
+  color:#9c9d9f  ;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2e2e2f;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+  padding: 40px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 24px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
